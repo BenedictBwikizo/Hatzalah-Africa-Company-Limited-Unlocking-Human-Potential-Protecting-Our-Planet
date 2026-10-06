@@ -19,7 +19,7 @@
 <header class="site-header" id="header">
   <div class="container nav-wrap">
     <a href="#home" class="brand" aria-label="Hatzalah Africa Company Limited – home">
-      <span class="brand-logo"><img src="/logo-mark.png" alt="Hatzalah Africa logo"></span>
+      <span class="brand-logo"><img src="logo-mark.png" alt="Hatzalah Africa logo"></span>
       <span class="brand-text">HATZALAH AFRICA<small>COMPANY LIMITED</small></span>
     </a>
     <nav id="nav" aria-label="Main">
