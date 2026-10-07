@@ -9,6 +9,7 @@
     var saved = localStorage.getItem('hz-theme');
     if (saved) root.setAttribute('data-theme', saved);
     else if (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches) root.setAttribute('data-theme', 'dark');
+    else root.setAttribute('data-theme', 'light');
   } catch (e) {}
   $('#themeBtn').addEventListener('click', function () {
     var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
